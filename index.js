@@ -7,14 +7,14 @@ var startTime = Date.now(),
 
 debug('First requires...');
 
-ghost = require('./core');
+ghost = require('/current/core');
 
 debug('Required ghost');
 
 express = require('express');
-logging = require('./core/server/logging');
-errors = require('./core/server/errors');
-utils = require('./core/server/utils');
+logging = require('/current/core/server/logging');
+errors = require('/current/core/server/errors');
+utils = require('/current/core/server/utils');
 parentApp = express();
 
 debug('Initialising Ghost');
