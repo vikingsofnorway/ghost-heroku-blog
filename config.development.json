@@ -29,7 +29,7 @@
     "contentPath": "/Users/gtay/Source/Development/web/ghost-heroku-blog/content"
   },
   "production": {
-    "url": "http://vikingsofnorway.herokuapp.com/",
+    "url": "process.env.HEROKU_URL",
     "fileStorage": false  
   }
 }
